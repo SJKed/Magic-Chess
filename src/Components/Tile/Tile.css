@@ -1,0 +1,29 @@
+.tile {
+    background-color: #eeeed2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile:nth-child(2n) {
+    background-color: #774e01;
+}
+
+.tile:hover {
+    background-color: #e99700;
+}
+
+.tile .chess-piece {
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80px;
+}
+
+.tile .chess-piece:hover {
+    cursor: grab;
+}
+.tile .chess-piece:active {
+    cursor: grabbing;
+}

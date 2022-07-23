@@ -1,0 +1,10 @@
+.chessBoard {
+    background: white;
+    border: 1px solid black;
+    min-width: 300px;
+    min-height: 300px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    color: black
+}
